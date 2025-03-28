@@ -31,14 +31,13 @@ def juego():
     puntuacion_maquina = 0
     lista_dibujos = frames
 
-    ## 2 opciones: jugar vs la maquina || juego automatico
+    # 2 opciones: jugar vs la maquina || juego automatico
     print("1: automatico   2: vs la maquina")
     # while True:
     juego_opcion = int(input())
+    #     if juego_opcion != 1 or juego_opcion != 2 or juego_opcion isinstance(juego_opcion, str):
+    #         print("Las opciones son: 1 o 2")
 
-        # if juego_opcion is not int
-
-    
     if juego_opcion == 1:
 
         while True:
@@ -105,10 +104,10 @@ def juego():
                     print("La maquina ha ganado la partida")
 
                 reanudar()
-    
+
     else:
         print("Introduce 0 o 1")
-    
+
 
 def main():
     try:
